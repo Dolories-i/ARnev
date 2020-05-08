@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 用于显示poi的overlyll
+ * 用于显示poi的overly
  */
 public class PoiOverlay extends OverlayManager {
 
