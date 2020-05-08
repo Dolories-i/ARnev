@@ -23,6 +23,8 @@ import com.baidu.mapapi.model.LatLng;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    //这是一条注释
+
     private MapView mMapView = null;
     private BaiduMap mBaiduMap;
     public LocationClient mLocationClient;
