@@ -23,8 +23,7 @@ import com.baidu.mapapi.model.LatLng;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //这是一条注释
-
+    //控件定义
     private MapView mMapView = null;
     private BaiduMap mBaiduMap;
     public LocationClient mLocationClient;
@@ -38,13 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //在使用SDK各组件之前初始化context信息，传入ApplicationContext
-        //注意该方法要再setContentView方法之前实现
-        SDKInitializer.initialize(getApplicationContext());
         setContentView(R.layout.activity_main);
-        //初始化控件
-        //mMapView = (MapView) findViewById(R.id.bmapView);
+        //初始化
         initView();
         initMap();
     }
